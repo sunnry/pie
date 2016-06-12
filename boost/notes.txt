@@ -1,0 +1,5 @@
+cross compiling boost
+1. ./bootstrap.sh  and then create bjam and project-config.jam
+2. edit project-config.jam , change 'using gcc' to 'using gcc : arm :arm-unknown-linux-gcc'
+3. ./bjam
+4. create static lib and dynamic shared lib under stage directory.
