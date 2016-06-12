@@ -1,3 +1,5 @@
+the current boost c++ version is 1.61.0
+
 cross compiling boost
 1. ./bootstrap.sh  and then create bjam and project-config.jam
 2. edit project-config.jam , change 'using gcc' to 'using gcc : arm :arm-unknown-linux-gcc'
